@@ -3,11 +3,11 @@
 - [輸入輸出範例](#輸入輸出範例)
 - [說明文件](#說明文件)
 	- [全域變數](#全域變數)
-	- [struct](https://github.com/hlyliang/1093349_proj2/edit/main/README.md#%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8Bstruct%E5%8E%BB%E5%AD%983-bit-hostory--state-%E5%92%8C-prediction)
-	- [main function](https://github.com/hlyliang/1093349_proj2/edit/main/README.md#%E7%94%A8%E4%BD%BF%E7%94%A8%E8%80%85%E8%BC%B8%E5%85%A5entry%E5%80%8B%E6%95%B8%E4%BB%A5%E5%8F%8A%E7%A8%8B%E5%BC%8F%E7%A2%BC%E4%B8%A6%E5%B0%87%E5%AD%97%E4%B8%B2%E5%81%9A%E5%88%86%E5%89%B2)
-	- [convert function](https://github.com/hlyliang/1093349_proj2/edit/main/README.md#%E5%88%A4%E6%96%B7%E4%BD%BF%E7%94%A8%E8%80%85%E8%BC%B8%E5%85%A5%E7%9A%84code%E6%98%AF%E5%93%AA%E4%B8%80%E7%A8%AE%E4%B8%A6%E6%8A%8Areg%E7%9A%84%E5%80%BC%E4%B9%9F%E5%AD%98%E5%A5%BD)
-	- [print function](https://github.com/hlyliang/1093349_proj2/edit/main/README.md#%E6%8A%8A%E6%89%80%E6%9C%89%E7%9A%84%E7%B5%90%E6%9E%9C%E9%83%BD%E5%8D%B0%E5%87%BA%E4%BE%86%E4%BB%A5%E5%8F%8A%E7%8F%BE%E5%9C%A8%E6%98%AF%E4%BD%BF%E7%94%A8%E5%93%AA%E5%80%8Bentry)
-	- [update function](https://github.com/hlyliang/1093349_proj2/edit/main/README.md#%E6%9B%B4%E6%96%B0predictor%E8%A3%A1%E9%9D%A2%E7%9A%84%E5%80%BC)
+	- [struct](https://github.com/hlyliang/1093349_proj2/blob/main/README.md#%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8Bstruct%E5%8E%BB%E5%AD%983-bit-hostory--state-%E5%92%8C-prediction)
+	- [main function](https://github.com/hlyliang/1093349_proj2/blob/main/README.md#%E7%94%A8%E4%BD%BF%E7%94%A8%E8%80%85%E8%BC%B8%E5%85%A5entry%E5%80%8B%E6%95%B8%E4%BB%A5%E5%8F%8A%E7%A8%8B%E5%BC%8F%E7%A2%BC%E4%B8%A6%E5%B0%87%E5%AD%97%E4%B8%B2%E5%81%9A%E5%88%86%E5%89%B2)
+	- [convert function](https://github.com/hlyliang/1093349_proj2/blob/main/README.md#%E5%88%A4%E6%96%B7%E4%BD%BF%E7%94%A8%E8%80%85%E8%BC%B8%E5%85%A5%E7%9A%84code%E6%98%AF%E5%93%AA%E4%B8%80%E7%A8%AE%E4%B8%A6%E6%8A%8Areg%E7%9A%84%E5%80%BC%E4%B9%9F%E5%AD%98%E5%A5%BD)
+	- [print function](https://github.com/hlyliang/1093349_proj2/blob/main/README.md#%E6%8A%8A%E6%89%80%E6%9C%89%E7%9A%84%E7%B5%90%E6%9E%9C%E9%83%BD%E5%8D%B0%E5%87%BA%E4%BE%86%E4%BB%A5%E5%8F%8A%E7%8F%BE%E5%9C%A8%E6%98%AF%E4%BD%BF%E7%94%A8%E5%93%AA%E5%80%8Bentry)
+	- [update function](https://github.com/hlyliang/1093349_proj2/blob/main/README.md#%E6%9B%B4%E6%96%B0predictor%E8%A3%A1%E9%9D%A2%E7%9A%84%E5%80%BC)
 ***
 
 # 題目
