@@ -18,21 +18,17 @@ int entrynum;
 int current_entrynum;
 vector<string> input;
 map<string, int> reg;
-bool entry = false;
 bool taken = false;
-bool branch = false;
 string const_state[8] = { "SN","WN1","WN2","WN3","WT1","WT2","WT3","ST" };
 vector <struct table >form;
 string outcome;
 string endstring;
 bool endfunc = false;
-int loopnum;
-int endnum;
 
 void update(vector <struct table > &form)
 {
 	int temp = stoi(form[current_entrynum].history);
-	int num = 0; //算要改第幾個state
+	int num = 0; 
 	for (int k = 0; k < 3; k++)
 	{
 		if (temp % 10 == 1)
@@ -63,11 +59,10 @@ void update(vector <struct table > &form)
 	}
 	form[current_entrynum].history.erase(--form[current_entrynum].history.end());
 }
-void print(vector <struct table >form)
+void print(vector <struct table >&form)
 {
 	for (int n = 0; n < entrynum; n++)
 	{
-		//cout 原本的
 		cout << form[n].history << "  ";
 		for (int i = 0; i < 8; i++)
 		{
@@ -84,12 +79,6 @@ void print(vector <struct table >form)
 	}
 	cout << endl;
 	endfunc = false;
-	
-	int x;
-	//更改裡面的值
-	if (entry == false)
-		x = 0;
-	else x = 1;
 
 	update(form);
 
@@ -193,7 +182,7 @@ int main()
 		input_buffer = input[i];
 		if (not_inst > 0)
 			j -= not_inst;
-		current_entrynum = j% entrynum;
+		current_entrynum = j % entrynum;
 		size_t pos = 0;
 		while ((pos = input[i].find(space_delimiter1)) != string::npos)
 		{
